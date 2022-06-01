@@ -2442,9 +2442,10 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
-"@royriojas/get-exports-from-file@git+https://github.com/hipstersmoothie/get-exports-from-file.git#all":
+"@royriojas/get-exports-from-file@https://github.com/hipstersmoothie/get-exports-from-file#all":
   version "1.3.0"
-  resolved "git+https://github.com/hipstersmoothie/get-exports-from-file.git#2674835dac0cb1a9821956020d00db22ef9efae0"
+  uid "2674835dac0cb1a9821956020d00db22ef9efae0"
+  resolved "https://github.com/hipstersmoothie/get-exports-from-file#2674835dac0cb1a9821956020d00db22ef9efae0"
   dependencies:
     "@babel/parser" "7.4.5"
     "@babel/traverse" "7.4.5"
@@ -6812,9 +6813,10 @@ define-property@^2.0.2:
     is-descriptor "^1.0.2"
     isobject "^3.0.1"
 
-"degit@git+https://github.com/hipstersmoothie/degit.git#private-release":
+"degit@https://github.com/hipstersmoothie/degit.git#private-release":
   version "2.1.4"
-  resolved "git+https://github.com/hipstersmoothie/degit.git#77bdec052337a560e3487b4c45e402d5de49fe55"
+  uid "77bdec052337a560e3487b4c45e402d5de49fe55"
+  resolved "https://github.com/hipstersmoothie/degit.git#77bdec052337a560e3487b4c45e402d5de49fe55"
   dependencies:
     chalk "2.4.2"
     githuburl "0.1.6"
@@ -7588,9 +7590,10 @@ eslint-formatter-pretty@3.0.1, eslint-formatter-pretty@^3.0.0:
     string-width "^4.2.0"
     supports-hyperlinks "^2.0.0"
 
-"eslint-import-resolver-lerna@git+https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#catch":
+"eslint-import-resolver-lerna@https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#catch":
   version "1.1.0"
-  resolved "git+https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#5c67ee424b102be38755728b55102e12f1bbd52d"
+  uid "5c67ee424b102be38755728b55102e12f1bbd52d"
+  resolved "https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#5c67ee424b102be38755728b55102e12f1bbd52d"
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.4"
@@ -7859,9 +7862,9 @@ events@^3.0.0:
   integrity sha512-/46HWwbfCX2xTawVfkKLGxMifJYQBWMwY1mjywRtb4c9x8l5NP3KoJtnIOiL1hfdRkIuYhETxQlo62IF8tcnlg==
 
 eventsource@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-1.0.7.tgz#8fbc72c93fcd34088090bc0a4e64f4b5cee6d8d0"
-  integrity sha512-4Ln17+vVT0k8aWq+t/bF5arcS3EpT9gYtW66EPacdj/mAFevznsnyoHLPy2BA8gbIQeIHoPsvwmfBftfcG//BQ==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-1.1.1.tgz#4544a35a57d7120fba4fa4c86cb4023b2c09df2f"
+  integrity sha512-qV5ZC0h7jYIAOhArFJgSfdyz6rALJyb270714o7ZtNnw2WSJ+eexhKtE0O8LYPRsHZHf2osHKZBxGPvm3kPkCA==
   dependencies:
     original "^1.0.0"
 
@@ -17311,10 +17314,18 @@ url-loader@^2.0.1:
     mime "^2.4.4"
     schema-utils "^2.5.0"
 
-url-parse@1.4.7, url-parse@^1.4.3:
+url-parse@1.4.7:
   version "1.4.7"
   resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
   integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  dependencies:
+    querystringify "^2.1.1"
+    requires-port "^1.0.0"
+
+url-parse@^1.4.3:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.10.tgz#9d3c2f736c1d75dd3bd2be507dcc111f1e2ea9c1"
+  integrity sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
